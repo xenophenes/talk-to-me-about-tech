@@ -1,0 +1,32 @@
+---
+import Container from "./Container.astro";
+
+---
+
+<div id="services" class="scroll-mt-16">
+    <Container>
+
+      <div class="space-y-6 justify-between text-gray-600 md:flex flex-row md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div class="group p-6 sm:p-8">
+            <div class="rounded-avatar bg-ui border p-0.5 shadow shadow-gray-950/5">
+                <img class="aspect-square rounded-[calc(var(--avatar-radius)-2px)] object-cover" src="https://avatars.githubusercontent.com/u/8406707?v=4" alt="Sarah Conway" height="420" width="420" loading="lazy" />
+            </div>
+            <span class="text-title mt-2 block text-sm">Sarah Conway</span>
+            <span class="text-caption block text-xs">Founder</span>
+          </div>
+          <div class="group p-6 sm:p-8 col-span-2">
+            <div class="mb-12 space-y-2">
+              <h2 class="text-3xl font-bold text-gray-800 md:text-4xl text-right">meet <span class="text-primary">the founder</span></h2>
+            </div>
+            <p class="my-8 text-gray-600 text-right">
+              <span class="font-bold text-alternative">Sarah Conway</span> is a DevRel specialist and technology evangelist with over 12 years experience in the field, with a significant focus in the worlds of open source and PostgreSQL. An expert with many hats, she's taken on many roles over time including frontend developer, software engineer, developer advocate, cloud evangelist, product marketing manager, conference organizer, diversity & inclusion leader, technical writer, and animal rescue founder &  president.
+            </p>
+            <p class="my-8 text-right">
+              catch me on <a class="font-bold text-info transition hover:text-secondary focus:text-secondary" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sarah-conway-05785570/">linkedin</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </Container>
+</div>

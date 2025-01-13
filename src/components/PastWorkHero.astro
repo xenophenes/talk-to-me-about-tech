@@ -1,0 +1,22 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300"></div>
+    </div>
+    <Container>
+        <div class="relative pt-36 pb-24 ml-auto border-b border-gray-100">
+            <div class="lg:w-2/3 text-center mx-auto">
+                <h1 class="text-gray-900 font-bold text-3xl md:text-4xl xl:text-5xl">selected <span class="text-primary">highlights</span> of past work</h1>
+                <p class="mt-4 text-gray-700">
+                  some examples of content created for customers over the years
+                </p>
+
+            </div>
+        </div>
+    </Container>
+</div>

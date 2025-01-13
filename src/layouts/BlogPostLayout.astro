@@ -1,0 +1,64 @@
+---
+import AppFooter from "../components/AppFooter.astro";
+import AppHeader from "../components/AppHeader.astro"
+const { frontmatter } = Astro.props;
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="https://www.talktomeabouttech.com/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="A developer relations agency specializing in marketing, content, advocacy, and community services at any level of engagement with your company to help you reach your desired technical audience.">
+		<title>Talk to Me About Tech | DevRel Services & Consultants</title>
+		<meta property="og:title" content="Talk to Me About Tech: Providing DevRel services for developers, by developers" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.talktomeabouttech.com" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image" content="https://talktomeabouttech.com/images/preview.png" />
+		<meta property="og:description" content="A developer relations agency specializing in marketing, content, advocacy, and community services at any level of engagement with your company to help you reach your desired technical audience." />
+
+		<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-white">
+		<a class="hidden" rel="me" href="https://hachyderm.io/@talktomeabouttech">Mastodon</a>
+
+		<AppHeader/>
+
+		<section class="py-20">
+			<div class="mx-auto max-w-5xl space-y-4 px-6">
+				<div class="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
+					<h2 class="text-title text-4xl font-bold lg:text-5xl">{frontmatter.title}</h2>
+					<p class="text-body">{frontmatter.author} | {frontmatter.date}</p>
+				</div>
+		
+				<div class="relative">
+					<div class="tls-shadow-lg rounded-card relative overflow-hidden shadow-gray-950/[0.03]">
+						<img src={frontmatter.image} alt="Cats congregating in a window" />
+					</div>
+				</div>
+		
+				<article class="prose prose-slate prose-a:text-primary max-w-full">
+					<slot />
+				</article>
+
+			</div>
+		</section>
+
+		<AppFooter/>
+
+	</body>
+</html>
+<style>
+	html {
+		font-family: Urbanist, sans-serif;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		margin: 0;
+	}
+</style>
