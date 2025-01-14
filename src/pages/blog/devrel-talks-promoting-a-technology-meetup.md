@@ -35,6 +35,8 @@ Don’t underestimate the power of social media. There’s many channels that yo
 - Bluesky  
 - YouTube
 
+And as a quick tip, if you're sharing the same message across multiple platforms, consider a free tier of a management platform such as [Buffer.com](https://buffer.com/) or [CoSchedule](https://coschedule.com/).
+
 ### Targeting users already interested or involved
 
 *Are there any specific advocacy websites for the technology or industry that you’re organizing the meetup for?*
