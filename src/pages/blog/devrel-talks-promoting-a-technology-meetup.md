@@ -1,9 +1,11 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
 title: "DevRel Talks: Promoting a Technology Meetup"
+meta: "DevRel Talks: Promoting a Technology Meetup | Blog | Talk to Me About Tech"
 author: Sarah Conway
 date: 01/16/2025
-image: /images/devrel-talks-promoting-a-technology-meetup.png
+image: https://talktomeabouttech.com/images/devrel-talks-promoting-a-technology-meetup.png
+description: For organizers of technology meetups, who need ideas on getting the word out.
 ---
 
 After a decade of organizing PostgreSQL events & taking part in advocacy activities for the same, I now get asked quite frequently what some tips & tricks are when running a technology meetup, event, or conference. So, this particular article is written as a quick-reference that will focus on ways that you can encourage attendance whether you’re looking to boost it locally or across the globe.
