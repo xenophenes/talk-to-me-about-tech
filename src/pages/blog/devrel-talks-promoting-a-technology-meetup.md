@@ -5,6 +5,7 @@ meta: "DevRel Talks: Promoting a Technology Meetup | Blog | Talk to Me About Tec
 author: Sarah Conway
 date: 01/16/2025
 image: https://talktomeabouttech.com/images/devrel-talks-promoting-a-technology-meetup.png
+imagedesc: Cats congregating in a window
 description: For organizers of technology meetups, who need ideas on getting the word out.
 ---
 
