@@ -4,7 +4,7 @@ title: "Velocity with AI does not equal progress"
 meta: "Velocity with AI does not equal progress | Blog | Talk to Me About Tech"
 author: Sarah Conway
 date: 02/03/2025
-image: https://talktomeabouttech.com/images/velocity-with-ai-does-not-equal-progress.jpeg
+image: https://talktomeabouttech.com/images/velocity-with-ai-does-not-equal-progress.jpg
 imagedesc: A cartoon image of a dog sitting with a cup of coffee in the middle of a raging dumpster fire, saying 'This is fine'
 description: On cybersecurity, privacy, and legal risks of using AI as part of services or solutions.
 ---
